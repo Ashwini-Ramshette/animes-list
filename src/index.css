@@ -1,0 +1,74 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+nav
+{
+  background-color: rgba(41, 58, 211, 0.366);
+  width:1200px;
+  height: 100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+ nav h1
+{
+  font-size: 50px;
+  color: rgb(226, 134, 43);
+}
+nav input
+{
+  width: 400px;
+  height: 40px;
+  border-radius: 8px;
+  border: solid 1px white;
+}
+nav div a
+{
+  font-size: 30px;
+  text-decoration: none;
+  background-color: green;
+  color: bisque;
+  margin:0px 5px ;
+  padding: 8px;
+  border-radius: 8px;
+  border: solid 1px green;
+} 
+nav button
+{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.animes-list{
+  background-color: rgb(255, 245, 240);
+  display: grid;
+  grid-template-columns: 600px 600px;
+  justify-content: center;
+}
+.anime{
+  background-color: palegreen;
+}
+.anime button{
+  background-color: transparent;
+  border: none;
+  font-size: 40px;
+}
+.anime button:active{
+  transform: scale(1.5);
+}
+
+
+
+
+
+
+
+
+
+
